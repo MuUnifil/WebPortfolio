@@ -1,0 +1,14 @@
+html {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+    text-align: center;
+}
