@@ -1,88 +1,120 @@
-html {
-    background-color: black;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-    transition: color 0.3s;
-}
-
-a:hover {
-    color: red;
-}
-
-h1 {
-    color: white;
-}
-
-p {
-    color: white;
-}
-
-nav {
-    display: grid;
-    grid-template-columns: repeat(5, 0.2fr);
-    text-align: center;
-    background-color: gray;
-    width: 99vw;
-    height: 1.5vw;
-    padding: 0.5vw;
-    font-size: large;
-    font-weight: bold;
-}
-
-.Logika {
-    padding-top: 350px;
-    padding-left: 350px;
-}
-
-.Apresentacao {
-    padding-top: 200px;
-    padding-left: 200px;
-}
-
-.Curriculo {
-    padding-top: 10px;
-    padding-left: 10px;
-    background-color: green;
-    border: 5px solid green;
-    border-radius: 20px;
-    width: 150px;
-    text-align: center;
-    font-size: large;
-    font-weight: 100;
-    margin-top: 30px;
-    margin-left: 300px;
-}
-
-.nome {
-    font-size: 1rem;
-    color: white;
-    transition: 0.5s;
-}
-
-.Formulario {
-    padding-top: 18px;
-    padding-left: 550px;
-}
-
-.FaleComigo {
-    padding-top: 5px;
-    padding-left: 550px;
-}
-
-.Descricao {
-    padding-top: 8px;
-    padding-left: 470px;
-}
-
-.Button {
-    transition: 0.3s;
-    padding-top: 20px;
-    padding-left: 608px;
-}
-
-.Button:hover {
-    color: blue;
-}
+    html {
+        background-color: black;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+        transition: color 0.3s;
+    }
+    
+    a:hover {
+        color: red;
+    }
+    
+    h1 {
+        color: white;
+    }
+    
+    p {
+        color: white;
+    }
+    
+    nav {
+        display: grid;
+        grid-template-columns: repeat(5, 0.2fr);
+        text-align: center;
+        background-color: white;
+        width: 99vw;
+        height: 1.5vw;
+        padding: 0.5vw;
+        font-size: large;
+        font-weight: bold;
+        border: 10px solid white;
+        border-radius: 1000px;
+        width: 1300px;
+    }
+    
+    .Logika {
+        font-family: "Exo 2", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        padding-top: 25px;
+        padding-left: 350px;
+    }
+    
+    .Apresentacao {
+        font-family: "Exo 2", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        padding-top: 70px;
+        padding-left: 350px;
+    }
+    
+    .Curriculo {
+        padding-top: 10px;
+        padding-left: 10px;
+        background-color: green;
+        border: 5px solid green;
+        border-radius: 20px;
+        width: 150px;
+        text-align: center;
+        font-size: large;
+        font-weight: 100;
+        margin-top: 30px;
+        margin-left: 340px;
+    }
+    
+    .nome {
+        font-size: 1rem;
+        color: white;
+        transition: 0.5s;
+        padding-top: 30px;
+        padding-left: 350px;
+    }
+    
+    .Formulario {
+        padding-top: 18px;
+        padding-left: 550px;
+    }
+    
+    .FaleComigo {
+        padding-top: 5px;
+        padding-left: 550px;
+    }
+    
+    .Descricao {
+        padding-top: 8px;
+        padding-left: 470px;
+    }
+    
+    .Button {
+        transition: 0.3s;
+        padding-top: 20px;
+        padding-left: 608px;
+    }
+    
+    .Button:hover {
+        color: blue;
+    }
+    
+    .logos {
+        display: flex;
+        gap: 0.1vw;
+    }
+    
+    .logos img {
+        max-width: 26%;
+        height: auto;
+        width: auto;
+    }
+    
+    .logos:hover {
+        color: red;
+    }
+    
+    .fotoPerfil {
+        height: auto;
+    }
