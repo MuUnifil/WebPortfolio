@@ -71,7 +71,6 @@
         font-size: 1rem;
         color: white;
         transition: 0.5s;
-        padding-top: 1px;
         padding-left: 350px;
     }
     
@@ -81,8 +80,12 @@
     }
     
     .FaleComigo {
+        background-color: green;
+        border: 5px solid green;
+        border-radius: 20px;
         padding-top: 5px;
         padding-left: 550px;
+        font-size:medium;
     }
     
     .Descricao {
@@ -129,3 +132,4 @@
         object-fit: cover;
         margin-left: 900px;
     }
+    
