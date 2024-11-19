@@ -1,289 +1,399 @@
-html {
-    background-color: black;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-    transition: color 0.3s;
-}
-
-a:hover {
-    color: red;
-}
-
-h1 {
-    color: white;
-}
-
-p {
-    color: white;
-}
-
-nav {
-    position: relative;
-    z-index: 11;
-    display: grid;
-    grid-template-columns: repeat(5, 0.2fr);
-    text-align: center;
-    background-color: white;
-    width: 99vw;
-    height: 1.5vw;
-    padding: 0.5vw;
-    font-size: large;
-    font-weight: bold;
-    border: 10px solid white;
-    border-radius: 1000px;
-    width: 1300px;
-}
-
-.Logika {
-    font-family: "Exo 2", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    padding-top: 5px;
-    padding-left: 350px;
-}
-
-.Apresentacao {
-    font-family: "Exo 2", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: italic;
-    padding-top: 20px;
-    padding-left: 350px;
-}
-
-.Curriculo {
-    padding-top: 10px;
-    padding-left: 10px;
-    background-color: green;
-    border: 5px solid green;
-    border-radius: 20px;
-    width: 150px;
-    text-align: center;
-    font-size: large;
-    font-weight: 100;
-    margin-top: 30px;
-    margin-left: 340px;
-    /* Mantido */
-}
-
-.nome {
-    font-size: 1rem;
-    color: white;
-    transition: 0.5s;
-    padding-left: 350px;
-    /* Mantido */
-}
-
-.Formulario {
-    padding-top: 18px;
-    padding-left: 550px;
-    /* Mantido */
-}
-
-.FaleComigo {
-    background-color: green;
-    border: 5px solid green;
-    border-radius: 20px;
-    padding-top: 5px;
-    padding-left: 550px;
-    /* Mantido */
-    font-size: medium;
-}
-
-.Descricao {
-    padding-top: 8px;
-    padding-left: 470px;
-    /* Mantido */
-}
-
-.Button {
-    transition: 0.3s;
-    padding-top: 20px;
-    padding-left: 608px;
-    /* Mantido */
-}
-
-.Button:hover {
-    color: blue;
-}
-
-.logos {
-    display: flex;
-    gap: 0.1vw;
-}
-
-.logos img {
-    max-width: 26%;
-    height: auto;
-    width: auto;
-}
-
-.logos:hover {
-    color: red;
-}
-
-.fotoPerfil {
-    width: 300px;
-    height: auto;
-    border-radius: 10%;
-    border: 4px solid white;
-    position: relative;
-}
-
-#container_Perfil {
-    margin-left: 20px;
-    order: 2;
-}
-
-#particles-js {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.perfil-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 40px 20px;
-}
-
-.perfil-apresentacao {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    text-align: left;
-    max-width: 600px;
-    position: relative;
-}
-
-.container {
-    max-width: 900px;
-    padding: 20px;
-    margin-top: 40px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    /* Centraliza a container na página */
-}
-
-.about-header {
-    width: 100%;
-    background-color: #222;
-    padding: 20px;
-}
-
-.about-title {
-    font-size: 2.5em;
-    margin-top: 20px;
-    color: #f1f1f1;
-}
-
-.about-intro {
-    font-size: 1.2em;
-    color: #ddd;
-    margin-bottom: 20px;
-}
-
-.about-section {
-    margin-top: 30px;
-    text-align: center;
-    /* Alinha o conteúdo de cada seção ao centro */
-}
-
-.about-section h2 {
-    font-size: 1.8em;
-    color: #ff6347;
-    border-bottom: 2px solid #ff6347;
-    padding-bottom: 5px;
-    display: inline-block;
-    margin-bottom: 15px;
-    /* Espaçamento entre o título e os ícones/texto */
-}
-
-.about-section p {
-    font-size: 1em;
-    color: #ccc;
-    line-height: 1.6;
-    text-align: justify;
-    /* Justifica o texto para melhor leitura */
-}
-
-.about-button {
-    background-color: #ff6347;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1em;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    margin-top: 20px;
-}
-
-.about-button:hover {
-    background-color: #ff4500;
-}
-
-.skills-title {
-    margin-top: 0;
-    font-size: 1.8em;
-    color: #ff6347;
-    border-bottom: 2px solid #ff6347;
-    padding-bottom: 5px;
-    display: inline-block;
-}
-
-.skills-icons {
-    display: flex;
-    gap: 40px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    justify-content: center;
-}
-
-.skill-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.skill-item span {
-    font-size: 0.9em;
-    color: #ddd;
-    margin-bottom: 8px;
-    /* Espaço entre o nome da skill e o ícone */
-}
-
-.skills-icons img {
-    width: 50px;
-    height: 50px;
-    transition: transform 0.3s ease;
-}
-
-.skills-icons img:hover {
-    transform: scale(1.1);
-}
-
-@media (max-width: 768px) {
-    .perfil-container {
-        flex-direction: column;
-        gap: 20px;
+    html {
+        background-color: black;
     }
+    
+    a {
+        text-decoration: none;
+        color: black;
+        transition: color 0.3s;
+    }
+    
+    a:hover {
+        color: red;
+    }
+    
+    h1 {
+        color: white;
+    }
+    
+    p {
+        color: white;
+    }
+    
+    nav {
+        position: relative;
+        z-index: 11;
+        display: grid;
+        grid-template-columns: repeat(5, 0.2fr);
+        text-align: center;
+        background-color: white;
+        width: 99vw;
+        height: 1.5vw;
+        padding: 0.5vw;
+        font-size: large;
+        font-weight: bold;
+        border: 10px solid white;
+        border-radius: 1000px;
+        width: 1300px;
+    }
+    
+    .Logika {
+        font-family: "Exo 2", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        padding-top: 5px;
+        padding-left: 350px;
+    }
+    
+    .Apresentacao {
+        font-family: "Exo 2", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: italic;
+        padding-top: 20px;
+        padding-left: 350px;
+    }
+    
+    .Curriculo {
+        padding-top: 10px;
+        padding-left: 10px;
+        background-color: green;
+        border: 5px solid green;
+        border-radius: 20px;
+        width: 150px;
+        text-align: center;
+        font-size: large;
+        font-weight: 100;
+        margin-top: 30px;
+        margin-left: 340px;
+        /* Mantido */
+    }
+    
+    .nome {
+        font-size: 1rem;
+        color: white;
+        transition: 0.5s;
+        padding-left: 350px;
+        /* Mantido */
+    }
+    
+    .Formulario {
+        padding-top: 18px;
+        padding-left: 550px;
+        /* Mantido */
+    }
+    
+    .FaleComigo {
+        background-color: green;
+        border: 5px solid green;
+        border-radius: 20px;
+        padding-top: 5px;
+        padding-left: 550px;
+        /* Mantido */
+        font-size: medium;
+    }
+    
+    .Descricao {
+        padding-top: 8px;
+        padding-left: 470px;
+        /* Mantido */
+    }
+    
+    .Button {
+        transition: 0.3s;
+        padding-top: 20px;
+        padding-left: 608px;
+        /* Mantido */
+    }
+    
+    .Button:hover {
+        color: blue;
+    }
+    
+    .logos {
+        display: flex;
+        gap: 0.1vw;
+    }
+    
+    .logos img {
+        max-width: 26%;
+        height: auto;
+        width: auto;
+    }
+    
+    .logos:hover {
+        color: red;
+    }
+    
     .fotoPerfil {
-        width: 200px;
+        width: 300px;
+        height: auto;
+        border-radius: 10%;
+        border: 4px solid white;
+        position: relative;
     }
+    
+    #container_Perfil {
+        margin-left: 20px;
+        order: 2;
+    }
+    
+    #particles-js {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .perfil-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 40px 20px;
+    }
+    
     .perfil-apresentacao {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        text-align: left;
+        max-width: 600px;
+        position: relative;
+    }
+    
+    .container {
+        max-width: 900px;
+        padding: 20px;
+        margin-top: 40px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        /* Centraliza a container na página */
+    }
+    
+    .about-header {
+        width: 100%;
+        background-color: #222;
+        padding: 20px;
+    }
+    
+    .about-title {
+        font-size: 2.5em;
+        margin-top: 20px;
+        color: #f1f1f1;
+    }
+    
+    .about-intro {
+        font-size: 1.2em;
+        color: #ddd;
+        margin-bottom: 20px;
+    }
+    
+    .about-section {
+        margin-top: 30px;
+        text-align: center;
+        /* Alinha o conteúdo de cada seção ao centro */
+    }
+    
+    .about-section h2 {
+        font-size: 1.8em;
+        color: #ff6347;
+        border-bottom: 2px solid #ff6347;
+        padding-bottom: 5px;
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+    
+    .about-section p {
+        font-size: 1em;
+        color: #ccc;
+        line-height: 1.6;
+        text-align: justify;
+        line-height: 1.8;
+    }
+    
+    .about-button {
+        background-color: #ff6347;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 1em;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin-top: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    .about-button:hover {
+        background-color: #ff4500;
+    }
+    
+    .skills-title {
+        margin-top: 0;
+        font-size: 1.8em;
+        color: #ff6347;
+        border-bottom: 2px solid #ff6347;
+        padding-bottom: 5px;
+        display: inline-block;
+    }
+    
+    .skills-icons {
+        display: flex;
+        gap: 55px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+    
+    .skill-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         text-align: center;
     }
-}
+    
+    .skill-item span {
+        font-size: 0.9em;
+        color: #ddd;
+        margin-bottom: 8px;
+    }
+    
+    .skills-icons img {
+        width: 50px;
+        height: auto;
+        transition: transform 0.3s ease;
+    }
+    
+    body .skill-item img {
+        max-width: 50px;
+        height: 50px;
+    }
+    
+    s .skills-icons img:hover {
+        transform: scale(1.1);
+    }
+    
+    @media (max-width: 768px) {
+        .perfil-container {
+            flex-direction: column;
+            gap: 20px;
+        }
+        .fotoPerfil {
+            width: 200px;
+        }
+        .perfil-apresentacao {
+            text-align: center;
+        }
+    }
+    
+    .Projects {
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .Projects p {
+        font-size: 2rem;
+        color: #f1f1f1;
+        text-transform: uppercase;
+        font-weight: bold;
+        border-bottom: 2px solid #ff6347;
+        display: inline-block;
+        padding-bottom: 10px;
+    }
+    
+    .NFS,
+    .Emissor\ de\ Boletos {
+        margin: 40px auto;
+        padding: 20px;
+        max-width: 800px;
+        background-color: #222;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        text-align: center;
+    }
+    
+    .NFS h1,
+    .Emissor\ de\ Boletos h1 {
+        font-size: 1.8rem;
+        color: #ff6347;
+        margin-bottom: 10px;
+    }
+    
+    .NFS p,
+    .Emissor\ de\ Boletos p {
+        font-size: 1rem;
+        color: #ccc;
+        margin-bottom: 15px;
+    }
+    
+    .NFS img,
+    .Emissor\ de\ Boletos img {
+        width: 80px;
+        height: auto;
+        transition: transform 0.3s ease;
+        margin: 10px auto;
+    }
+    
+    .NFS img:hover,
+    .Emissor\ de\ Boletos img:hover {
+        transform: scale(1.1);
+    }
+    
+    .NFS p.python-text,
+    .Emissor\ de\ Boletos p.python-text {
+        font-size: 0.9rem;
+        color: #bbb;
+        margin: 5px 0;
+    }
+    
+    .NFS,
+    .Emissor\ de\ Boletos,
+    .skill-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        transition: transform 0.3s ease;
+    }
+    
+    .NFS:hover,
+    .Emissor\ de\ Boletos:hover,
+    .skill-item:hover {
+        transform: scale(1.05);
+    }
+    
+    .NFS h1,
+    .Emissor\ de\ Boletos h1 {
+        font-size: 2rem;
+        color: #ff6347;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+    }
+    
+    .NFS p,
+    .Emissor\ de\ Boletos p {
+        font-size: 1rem;
+        color: #ccc;
+        margin-bottom: 15px;
+    }
+    
+    .NFS img,
+    .Emissor\ de\ Boletos img {
+        width: 80px;
+        height: auto;
+        transition: transform 0.3s ease;
+        margin: 10px auto;
+    }
+    
+    .NFS img:hover,
+    .Emissor\ de\ Boletos img:hover {
+        transform: scale(1.1);
+    }
